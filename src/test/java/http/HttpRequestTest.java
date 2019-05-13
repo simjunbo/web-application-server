@@ -29,7 +29,7 @@ public class HttpRequestTest {
 
         assertEquals("POST", request.getMethod());
         assertEquals("/user/create", request.getPath());
-        assertEquals("kee-alive", request.getHeader("Connection"));
+        assertEquals("keep-alive", request.getHeader("Connection"));
         assertEquals("javajigi", request.getParameter("userId"));
     }
 }
